@@ -14,6 +14,10 @@ public class Main {
         return firstNo * secondNo;
     }
     
+    public static int divideNo(int firstNo, int secondNo) {
+        return firstNo / secondNo;
+    }
+    
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         
