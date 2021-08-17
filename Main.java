@@ -9,6 +9,10 @@ public class Main {
     public static int subNo(int firstNo, int secondNo) {
         return firstNo - secondNo;
     }
+
+    public static int multiplyNo(int firstNo, int secondNo) {
+        return firstNo * secondNo;
+    }
     
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
