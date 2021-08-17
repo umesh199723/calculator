@@ -5,6 +5,10 @@ public class Main {
     public static int addNo(int firstNo, int secondNo) {
         return firstNo + secondNo;
     } 
+
+    public static int subNo(int firstNo, int secondNo) {
+        return firstNo - secondNo;
+    }
     
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -16,7 +20,9 @@ public class Main {
         int secondNo = scan.nextInt();
 
         int result = addNo(firstNo, secondNo);
+        System.out.println("Result = "+result);
 
+        result = subNo(firstNo, secondNo);
         System.out.println("Result = "+result);
     }
 }
